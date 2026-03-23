@@ -35,3 +35,14 @@ Sync-o-path is an AI-powered agent designed to automate the administrative overh
  [ ] Phase 3: Voice channel recording and transcription pipeline.
 
  [ ] Phase 4: Custom Dashboard for mapping Discord Users to YouTrack Profiles.
+
+
+## Documentation
+- [User Flow Documentation](docs/user-flow.md)
+- [High-Level Architecture](docs/architecture-high-level.md)
+- [Project Tasks & Tracking](docs/tasks.md)
+
+### Feature Specifications
+- [Meeting Transcription Spec](docs/specs/meeting-transcription.spec.md)
+- [One-Click Ticketing Spec](docs/specs/one-click-ticketing.spec.md)
+- [Visual Bug Analysis Spec](docs/specs/visual-bug-analysis.spec.md)
