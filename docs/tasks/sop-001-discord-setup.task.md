@@ -16,11 +16,11 @@ Initialize the Discord bot using `discord.js` and implement a robust listener fo
 ## Implementation Steps
 - [x] Initialize Node.js project and install `discord.js`.
 - [x] Create basic bot client with necessary intents (Guilds, GuildMessages, GuildMessageReactions).
-- [ ] Write unit tests for the Discord client using Vitest and `discordjs-mock`.
-- [/] Implement `messageReactionAdd` handler.
-- [ ] Test reaction detection in a developer channel.
+- [x] Write unit tests for the Discord client using Vitest and `discordjs-mock`.
+- [x] Implement `messageReactionAdd` handler.
+- [x] Test reaction detection in a developer channel.
 
 ## Acceptance Criteria
-- [ ] The bot shows as "Online" in Discord.
-- [ ] Console logs the correct emoji name when a user reacts to a message.
-- [ ] **TDD**: All unit tests for the reaction listener pass locally.
+- [x] The bot shows as "Online" in Discord.
+- [x] Console logs the correct emoji name when a user reacts to a message.
+- [x] **TDD**: All unit tests for the reaction listener pass locally.

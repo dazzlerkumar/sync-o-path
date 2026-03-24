@@ -7,9 +7,10 @@ This document tracks the progress of the Sync-o-path (SOP) development. Each tas
 ## Phase 1: One-Click Ticketing Foundation
 Focus: core Discord reaction listener and basic YouTrack API integration.
 
-- [/] [SOP-001: Set up Discord Bot and Reaction Listener](tasks/sop-001-discord-setup.task.md)
-- [ ] [SOP-002: Implement YouTrack REST Client](tasks/sop-002-youtrack-client.task.md)
+- [x] [SOP-001: Set up Discord Bot and Reaction Listener](tasks/sop-001-discord-setup.task.md)
+- [x] [SOP-002: Implement YouTrack REST Client](tasks/sop-002-youtrack-client.task.md)
 - [ ] [SOP-003: Map Reaction Emojis to YouTrack Issue Types](tasks/sop-003-reaction-mapping.task.md)
+
 
 ## Phase 2: Gemini AI Integration
 Focus: Enhancing raw input with AI-driven summaries and cleaning.
