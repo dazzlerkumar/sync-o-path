@@ -14,9 +14,9 @@ Initialize the Discord bot using `discord.js` and implement a robust listener fo
 - **Dependencies**: `discord.js`, `dotenv`
 
 ## Implementation Steps
-- [ ] Initialize Node.js project and install `discord.js`.
-- [ ] Create basic bot client with necessary intents (Guilds, GuildMessages, GuildMessageReactions).
-- [ ] Implement `messageReactionAdd` handler.
+- [x] Initialize Node.js project and install `discord.js`.
+- [x] Create basic bot client with necessary intents (Guilds, GuildMessages, GuildMessageReactions).
+- [x] Implement `messageReactionAdd` handler.
 - [ ] Test reaction detection in a developer channel.
 
 ## Acceptance Criteria
