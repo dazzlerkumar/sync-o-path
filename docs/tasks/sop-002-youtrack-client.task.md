@@ -15,10 +15,11 @@ Develop a reusable YouTrack API client using `axios` or `node-fetch` to handle i
 
 ## Implementation Steps
 - [ ] Set up environment variables for YouTrack URL and Token.
-- [ ] Create `YouTrackClient` class with a `createIssue` method.
-- [ ] Implement error handling for API failures (e.g., token expired, project not found).
-- [ ] Test issue creation with mock data.
+- [ ] Write failing unit tests for `YouTrackClient` using Vitest.
+- [ ] Implement `YouTrackClient` class with a `createIssue` method.
+- [ ] Implement error handling for API failures.
+- [ ] Confirm tests pass with mock data.
 
 ## Acceptance Criteria
 - [ ] Successfully create a test ticket in YouTrack via script.
-- [ ] Error messages are descriptive and actionable.
+- [ ] **TDD**: 100% test coverage for API request mapping and error handling logic.

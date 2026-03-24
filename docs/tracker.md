@@ -2,10 +2,12 @@
 
 This document tracks the progress of the Sync-o-path (SOP) development. Each task is defined in detail in its respective `.task.md` file in the `docs/tasks/` directory.
 
+**Note on TDD**: All tasks must follow the [Testing Strategy](testing-strategy.md). No task is considered complete without accompanying unit and/or integration tests.
+
 ## Phase 1: One-Click Ticketing Foundation
 Focus: core Discord reaction listener and basic YouTrack API integration.
 
-- [ ] [SOP-001: Set up Discord Bot and Reaction Listener](tasks/sop-001-discord-setup.task.md)
+- [/] [SOP-001: Set up Discord Bot and Reaction Listener](tasks/sop-001-discord-setup.task.md)
 - [ ] [SOP-002: Implement YouTrack REST Client](tasks/sop-002-youtrack-client.task.md)
 - [ ] [SOP-003: Map Reaction Emojis to YouTrack Issue Types](tasks/sop-003-reaction-mapping.task.md)
 

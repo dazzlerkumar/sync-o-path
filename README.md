@@ -41,6 +41,7 @@ Sync-o-path is an AI-powered agent designed to automate the administrative overh
 - [User Flow Documentation](docs/user-flow.md)
 - [High-Level Architecture](docs/architecture-high-level.md)
 - [Project Tasks & Tracking](docs/tasks.md)
+- [Testing Strategy & TDD Workflow](docs/testing-strategy.md)
 
 ### Feature Specifications
 - [Meeting Transcription Spec](docs/specs/meeting-transcription.spec.md)
