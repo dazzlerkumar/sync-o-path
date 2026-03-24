@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "NODE_OPTIONS='--loader ts-node/esm --no-warnings' ts-node src/discord/client.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest"
   },
   "repository": {
     "type": "git",
@@ -23,12 +23,15 @@
   },
   "homepage": "https://github.com/dazzlerkumar/sync-o-path#readme",
   "dependencies": {
+    "axios": "^1.13.6",
     "discord.js": "^14.25.1",
     "dotenv": "^17.3.1"
   },
   "devDependencies": {
+    "@shoginn/discordjs-mock": "^1.0.11",
     "@types/node": "^25.5.0",
     "ts-node": "^10.9.2",
-    "typescript": "^6.0.2"
+    "typescript": "^6.0.2",
+    "vitest": "^4.1.1"
   }
 }
