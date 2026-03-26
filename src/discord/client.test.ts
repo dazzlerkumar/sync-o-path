@@ -12,17 +12,17 @@ describe('Discord Client Reaction Listener', () => {
 
   it('should log the correct emoji name when a user reacts', async () => {
     const consoleSpy = vi.spyOn(console, 'log');
-    
+
     // Mock client.user.id
     vi.spyOn(client, 'user', 'get').mockReturnValue({ id: 'bot-id' } as any);
 
     // Create mock user and message
     const user = mockUser(client, { id: 'user-id', username: 'test-user' });
-    const message = mockMessage({ 
-      client, 
-      override: { content: 'Test message' } as any 
+    const message = mockMessage({
+      client,
+      override: { content: 'Test message' } as any
     });
-    
+
     // Create mock reaction
     const reaction = mockReaction({
       message,
@@ -40,14 +40,14 @@ describe('Discord Client Reaction Listener', () => {
 
   it('should ignore bot\'s own reactions', async () => {
     const consoleSpy = vi.spyOn(console, 'log');
-    
+
     // Mock client.user.id to be same as bot's
     vi.spyOn(client, 'user', 'get').mockReturnValue({ id: 'bot-id' } as any);
 
     const botUser = mockUser(client, { id: 'bot-id', username: 'bot-user' });
-    const message = mockMessage({ 
-      client, 
-      override: { content: 'Test message' } as any 
+    const message = mockMessage({
+      client,
+      override: { content: 'Test message' } as any
     });
     const reaction = mockReaction({
       message,
@@ -62,13 +62,13 @@ describe('Discord Client Reaction Listener', () => {
 
   it('should fetch the reaction if it is partial', async () => {
     vi.spyOn(client, 'user', 'get').mockReturnValue({ id: 'bot-id' } as any);
-    
+
     const user = mockUser(client, { id: 'user-id', username: 'test-user' });
-    const message = mockMessage({ 
-      client, 
-      override: { content: 'Test message' } as any 
+    const message = mockMessage({
+      client,
+      override: { content: 'Test message' } as any
     });
-    
+
     const reaction = mockReaction({
       message,
       user,

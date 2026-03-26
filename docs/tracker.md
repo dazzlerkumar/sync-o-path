@@ -8,6 +8,7 @@ This document tracks the progress of the Sync-o-path (SOP) development. Each tas
 Focus: core Discord reaction listener and basic YouTrack API integration.
 
 - [x] [SOP-001: Set up Discord Bot and Reaction Listener](tasks/sop-001-discord-setup.task.md)
+- [x] Implement Discord Slash Commands Foundation (/help, /join, /create-issue, etc.)
 - [x] [SOP-002: Implement YouTrack REST Client](tasks/sop-002-youtrack-client.task.md)
 - [ ] [SOP-003: Map Reaction Emojis to YouTrack Issue Types](tasks/sop-003-reaction-mapping.task.md)
 

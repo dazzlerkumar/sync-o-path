@@ -52,3 +52,20 @@ graph TD
     E --> F[YouTrack Ticket Created with Screenshot & Technical Analysis]
     F --> G[Status Update in Discord Thread]
 ```
+
+---
+
+## 4. Slash Commands Flow
+
+**Description**: Provides direct interaction with the bot via Discord slash commands for various project management tasks (e.g., `/create-issue`, `/standup`, `/sprint`).
+
+### Flow Diagram
+
+```mermaid
+graph TD
+    A[User Types /command in Discord] --> B[Discord Presents Command Options]
+    B --> C[User Fills Options and Submits]
+    C --> D[Bot Receives Command Interaction]
+    D --> E[Bot Processes Action]
+    E --> F[Bot Replies with Result/Confirmation]
+```
