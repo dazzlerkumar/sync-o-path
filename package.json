@@ -8,7 +8,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "dev": "NODE_OPTIONS='--loader ts-node/esm --no-warnings' ts-node src/discord/client.ts",
+    "dev": "ts-node src/index.ts",
+    "dev:no-logs": "NODE_OPTIONS='--loader ts-node/esm --no-warnings' ts-node src/index.ts",
     "test": "vitest"
   },
   "repository": {
