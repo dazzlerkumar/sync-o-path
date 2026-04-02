@@ -24,3 +24,6 @@ Initialize the Discord bot using `discord.js` and implement a robust listener fo
 - [x] The bot shows as "Online" in Discord.
 - [x] Console logs the correct emoji name when a user reacts to a message.
 - [x] **TDD**: All unit tests for the reaction listener pass locally.
+
+
+working
