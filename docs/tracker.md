@@ -18,6 +18,8 @@ Focus: Enhancing raw input with AI-driven summaries and cleaning.
 
 - [ ] [SOP-004: Integrate Gemini 1.5 Flash API](tasks/sop-004-gemini-integration.task.md)
 - [ ] [SOP-005: Develop AI Prompt Templates for Summarization](tasks/sop-005-prompt-templates.task.md)
+- [ ] [SOP-013: Orchestrate AI Processing in Ticketing Flow](tasks/sop-013-ai-orchestration.task.md)
+- [ ] [SOP-014: AI Quality Assurance & Testing](tasks/sop-014-ai-testing.task.md)
 
 ## Phase 3: Voice Transcription Pipeline
 Focus: Real-time audio capture and processing.
