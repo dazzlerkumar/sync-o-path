@@ -15,13 +15,13 @@ Set up the infrastructure to communicate with Google's Gemini 1.5 Flash API. Thi
 - **Model**: `gemini-1.5-flash`
 
 ## Implementation Steps
-- [ ] Install `@google/generative-ai` dependency.
-- [ ] Add `GEMINI_API_KEY` to `.env.example` and validate its presence at runtime.
-- [ ] Create `GeminiClient` class with a `generateText` method.
-- [ ] Implement robust error handling for API failures (network issues, invalid keys).
-- [ ] Write unit tests with mocked API responses.
+- [x] Install `@google/generative-ai` dependency.
+- [x] Add `GEMINI_API_KEY` to `.env.example` and validate its presence at runtime.
+- [x] Create `GeminiClient` class with a `generateText` method.
+- [x] Implement robust error handling for API failures (network issues, invalid keys).
+- [x] Write unit tests with mocked API responses.
 
 ## Acceptance Criteria
-- [ ] Successfully retrieves a response from a "Hello World" prompt in a test script.
-- [ ] Gracefully handles missing API keys with helpful error messages.
-- [ ] **TDD**: 100% test coverage for the client wrapper.
+- [x] Successfully retrieves a response from a "Hello World" prompt in a test script.
+- [x] Gracefully handles missing API keys with helpful error messages.
+- [x] **TDD**: 100% test coverage for the client wrapper.

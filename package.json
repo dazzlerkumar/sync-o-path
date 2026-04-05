@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/dazzlerkumar/sync-o-path#readme",
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
     "axios": "^1.13.6",
     "discord.js": "^14.25.1",
     "dotenv": "^17.3.1"
